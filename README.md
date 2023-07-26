@@ -1,4 +1,4 @@
-Aplicación desarollada en Flutter multifuncional para el sistema de salud nacional, otorga la posibilidad de agendar, revisar y eliminar citas médicas, además permite la compra de medicamentos ordenados por especialistas de salud por medio de una orden médica.
+Aplicación multifuncional desarollada en Flutter para el sistema de salud nacional, otorga la posibilidad de agendar, revisar y eliminar citas médicas, además permite la compra de medicamentos ordenados por especialistas de salud por medio de una orden médica.
 Actualmente el aplicativo no funciona como debería puesto que fue un proyecto donde estuvimos involucrados más de 20 estudiantes, uno de ellos era el encargado de realizar y hostear el API Gateway y actualmente no está en funcionamiento, por ende, el aplicativo no tiene como enviar ni recibir información, sin embargo, el cçódigo puede ser revisado a detalle. 
 
 
