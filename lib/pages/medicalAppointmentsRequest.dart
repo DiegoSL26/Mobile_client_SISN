@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'dart:ffi';
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -135,27 +134,32 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                     selectedValue = value as String;
                   });
                 },
-                icon: const Icon(
-                  Icons.arrow_forward_ios_outlined,
+                iconStyleData: const IconStyleData(
+                  icon: Icon(
+                    Icons.arrow_forward_ios_outlined,
+                  ),
+                  iconSize: 14,
                 ),
-                iconSize: 14,
-                buttonPadding: const EdgeInsets.only(left: 14, right: 14),
-                buttonDecoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(5),
-                  border: Border.all(color: Colors.grey),
-                  color: Colors.white,
+                buttonStyleData: ButtonStyleData(
+                  padding: const EdgeInsets.only(left: 14, right: 14),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(5),
+                    border: Border.all(color: Colors.grey),
+                    color: Colors.white,
+                  ),
                 ),
-                itemHeight: 55,
-                dropdownMaxHeight: 200,
-                dropdownDecoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(5),
-                  border: Border.all(color: Colors.grey),
-                  color: Colors.white,
-                ),
-                dropdownElevation: 0,
-                scrollbarRadius: const Radius.circular(5),
-                scrollbarThickness: 6,
-                scrollbarAlwaysShow: true,
+                menuItemStyleData: const MenuItemStyleData(height: 55),
+                dropdownStyleData: DropdownStyleData(
+                    maxHeight: 200,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(5),
+                        border: Border.all(color: Colors.grey),
+                        color: Colors.white),
+                    scrollbarTheme: ScrollbarThemeData(
+                      radius: const Radius.circular(5),
+                      thickness: MaterialStateProperty.all<double>(6),
+                      thumbVisibility: MaterialStateProperty.all<bool>(true),
+                    )),
               ),
             ),
             Container(

@@ -40,8 +40,8 @@ class _HomeState extends State<Home> {
                 )),
             Container(
                 padding: const EdgeInsets.only(top: 60),
-                child: Column(
-                  children: const [
+                child: const Column(
+                  children: [
                     Text(
                       'Tipo de documento: C.C.',
                       style: TextStyle(
