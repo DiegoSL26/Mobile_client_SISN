@@ -30,8 +30,8 @@ class _MedicineOrderHistory extends State<MedicineOrderHistory> {
                     onTap: () {
                       Navigator.pushNamed(context, '/medicineDetail');
                     },
-                    child: Column(
-                      children: const <Widget>[
+                    child: const Column(
+                      children: <Widget>[
                         ListTile(
                           contentPadding: EdgeInsets.fromLTRB(20, 10, 25, 10),
                           title: Text('Acetaminofen'),
@@ -53,8 +53,8 @@ class _MedicineOrderHistory extends State<MedicineOrderHistory> {
                     onTap: () {
                       Navigator.pushNamed(context, '/medicineDetail');
                     },
-                    child: Column(
-                      children: const <Widget>[
+                    child: const Column(
+                      children: <Widget>[
                         ListTile(
                           contentPadding: EdgeInsets.fromLTRB(20, 10, 25, 10),
                           title: Text('Ibuprofeno'),
@@ -76,8 +76,8 @@ class _MedicineOrderHistory extends State<MedicineOrderHistory> {
                     onTap: () {
                       Navigator.pushNamed(context, '/medicineDetail');
                     },
-                    child: Column(
-                      children: const <Widget>[
+                    child: const Column(
+                      children: <Widget>[
                         ListTile(
                           contentPadding: EdgeInsets.fromLTRB(20, 10, 25, 10),
                           title: Text('Salbutamol'),
@@ -99,8 +99,8 @@ class _MedicineOrderHistory extends State<MedicineOrderHistory> {
                     onTap: () {
                       Navigator.pushNamed(context, '/medicineDetail');
                     },
-                    child: Column(
-                      children: const <Widget>[
+                    child: const Column(
+                      children: <Widget>[
                         ListTile(
                           contentPadding: EdgeInsets.fromLTRB(20, 10, 25, 10),
                           title: Text('Amoxicilina'),

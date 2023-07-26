@@ -2,14 +2,14 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:mobile_client/pages/home.dart';
-import 'package:mobile_client/pages/medicalAppointmentsRequest.dart';
-import 'package:mobile_client/pages/medicalAppointmentDetail.dart';
-import 'package:mobile_client/pages/medicalHistoryDetail.dart';
-import 'package:mobile_client/pages/medicineRequest.dart';
-import 'package:mobile_client/pages/medicineOrderHistory.dart';
-import 'package:mobile_client/pages/medicineDetail.dart';
-import 'package:mobile_client/pages/searchClinicalHistory.dart';
-import 'package:mobile_client/pages/searchMedicalAppointments.dart';
+import 'package:mobile_client/pages/medical_appointments_request.dart';
+import 'package:mobile_client/pages/medical_appointment_detail.dart';
+import 'package:mobile_client/pages/medical_history_detail.dart';
+import 'package:mobile_client/pages/medicine_request.dart';
+import 'package:mobile_client/pages/medicine_order_history.dart';
+import 'package:mobile_client/pages/medicine_detail.dart';
+import 'package:mobile_client/pages/search_clinical_history.dart';
+import 'package:mobile_client/pages/search_medical_appointments.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:http/http.dart' as http;
 
