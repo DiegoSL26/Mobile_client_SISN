@@ -4,3 +4,5 @@ Actualmente el aplicativo no funciona como debería puesto que fue un proyecto d
 
 Multifunctional application developed in Flutter for the national health system, gives the possibility of scheduling, reviewing and deleting medical appointments, also allows the purchase of medicines ordered by health specialists through a medical order.
 Currently the application does not work as it should since it was a project where more than 20 students were involved, one of them was in charge of creating and hosting the API Gateway and it is currently not working, therefore, the application does not have a way to send or receive information, however, the code can be reviewed in detail.
+
+Hecho por/Made by: Diego Fernando Sanchez Leyton.
