@@ -1,16 +1,6 @@
-# mobile_client
+Aplicación desarollada en Flutter multifuncional para el sistema de salud nacional, otorga la posibilidad de agendar, revisar y eliminar citas médicas, además permite la compra de medicamentos ordenados por especialistas de salud por medio de una orden médica.
+Actualmente el aplicativo no funciona como debería puesto que fue un proyecto donde estuvimos involucrados más de 20 estudiantes, uno de ellos era el encargado de realizar y hostear el API Gateway y actualmente no está en funcionamiento, por ende, el aplicativo no tiene como enviar ni recibir información, sin embargo, el cçódigo puede ser revisado a detalle. 
 
-A new Flutter project.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Multifunctional application developed in Flutter for the national health system, gives the possibility of scheduling, reviewing and deleting medical appointments, also allows the purchase of medicines ordered by health specialists through a medical order.
+Currently the application does not work as it should since it was a project where more than 20 students were involved, one of them was in charge of creating and hosting the API Gateway and it is currently not working, therefore, the application does not have a way to send or receive information, however, the code can be reviewed in detail.
